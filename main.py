@@ -106,7 +106,7 @@ def load(df):
     USER = ''  # replace with your username
     PASSWORD = ''  # replace with your password
     PORT = 5432  # replace with your port
-    DATABASE = 'vapes-db'  # replace with your database name
+    DATABASE = ''  # replace with your database name
 
     # Create the connection string
     connection_string = f"{DATABASE_TYPE}+{DBAPI}://{USER}:{PASSWORD}@{ENDPOINT}:{PORT}/{DATABASE}"
